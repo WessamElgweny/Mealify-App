@@ -1,0 +1,156 @@
+:has(.mode:checked) body{
+    background-color: #202020;
+}
+:has(.mode:checked) .container .title h2{
+    color: #9f9f9f;
+}
+
+:has(.mode:checked) .container .title p{
+    color:white;
+}
+:has(.mode:checked) .container .title span{
+    color: #c17e1f;
+}
+/* Start navbar */
+:has(.mode:checked) nav{
+    background-color: #171717;
+}
+:has(.mode:checked) .nav-item .logo a{
+    color: white;
+}
+:has(.mode:checked) .nav-item .logo a::after{
+    color:#C17E1F;
+}  
+:has(.mode:checked) nav .links a{
+    color:#ADADAD;
+}
+:has(.mode:checked) nav .links a::after{
+    background-color: #C17E1F;
+}
+:has(.mode:checked) body:has(#Home:target) .home-link,
+:has(.mode:checked) body:has(#Chefs:target) .chefs-link,
+:has(.mode:checked) body:has(#Gallery:target) .gallery-link,
+:has(.mode:checked) body:has(#Contact:target) .contact-link
+{
+    color:white;;
+}
+:has(.mode:checked) .light{
+    color: white;
+}
+/* End navbar */
+/* **************************************** */
+/* Start header */
+:has(.mode:checked) header{
+    background-color: #252525;
+}
+:has(.mode:checked) .text h1{
+    color: white;
+}
+:has(.mode:checked) .text p{
+    color: #ADADAD;
+}
+:has(.mode:checked) header button{
+    background-color: #C17E1F;
+    color: black;
+}
+:has(.mode:checked) header button:hover{
+    background-color: #D78C23;
+}
+:has(.mode:checked) .icon{
+    background-color: #C17E1f;
+}
+:has(.mode:checked) .icon a{
+    color: white;
+}
+:has(.mode:checked) .icon::after{
+    background-color: black;
+}
+:has(.mode:checked) .icon::before{
+    background-color:#252525;
+}
+:has(.mode:checked) .youtube  span{
+    color: white;
+}
+:has(.mode:checked) .youtube  span:hover , :has(.mode:checked) .icon i:hover{
+    color:#D78C23;
+}
+/* End header */
+/* **************************************** */
+/* Start Chefs */
+:has(.mode:checked) #Chefs{
+    background-color: #202020;
+}
+:has(.mode:checked) .chefs-cards .card picture:before {
+    background-image: url("../images/team-shape-dark.svg");
+}
+:has(.mode:checked) .content{
+    background-color: #171717;
+}
+:has(.mode:checked) .content h3{
+    color:white;
+}
+:has(.mode:checked) .content span{
+    color: #9F9F9F;
+}
+:has(.mode:checked) .content  p{
+    color: #9F9F9F;
+}
+/* End  Chefs */
+/* **************************************** */
+/* Start gallery */
+:has(.mode:checked) #Gallery{
+    background-color: #252525;
+}
+/* End  gallery  */
+/* **************************************** */
+/* Start contact */
+:has(.mode:checked) .details > div{
+    background-color: #0D0D0D;
+}
+:has(.mode:checked) .details .Icon{
+    background-color:#C17E1F;
+}
+:has(.mode:checked) .details .Icon i{
+    color: #171717;
+}
+:has(.mode:checked) .details h3{
+    color: #ADADAD;
+}
+:has(.mode:checked) .details p{
+    color: white;
+}
+:has(.mode:checked) .details strong{
+    color: white;
+}
+:has(.mode:checked) .details a{
+    color: white;
+}
+:has(.mode:checked) form{
+    background-color: #171717;
+}
+:has(.mode:checked) form .button button {
+    background-color:#C17E1F ;
+    color: black;
+}
+:has(.mode:checked) form .button button:hover{
+    background-color: #D78C23;
+}
+/* End  contact  */
+/* **************************************** */
+/* Start footer */
+:has(.mode:checked) footer .container .about h2:after{
+    content: ".";
+    color: #C17E1F;
+}
+:has(.mode:checked) footer .container .subscribe .sub-email button{
+    background-color:#C17E1F ;
+}
+:has(.mode:checked) footer .container .subscribe .sub-email button:hover{
+    background-color: #D78C23;
+}
+:has(.mode:checked) footer .sub-get ul li i{
+    color:#C17E1F ;
+}
+/* End footer */
+
+

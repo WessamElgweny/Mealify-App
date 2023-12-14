@@ -1,0 +1,109 @@
+@media screen and (max-width: 1200px) {
+    nav .nav-item{
+        justify-content: flex-start;
+    }
+    nav .mode-group{
+      margin-left: auto;
+    }
+    nav .menu{
+        display: flex;
+        cursor: pointer;
+        opacity: 1;
+        position: relative;  
+    }
+    nav .links{
+        display: flex;
+        flex-direction:column ;
+        position: absolute;
+        right: -1px;
+        top: 70%;
+        opacity: 0;
+        transition: all 0.3s;
+    }
+    nav .links a.active{
+        color:#7f7f90;
+        border-bottom: none;
+    }
+    nav .links li{
+        padding-left:5px ;
+        padding-block: 20px;
+    }
+    .menu:hover + ul {
+        background-color: white;
+        opacity: 1;
+        right: 0;
+    } 
+}
+@media screen and (max-width: 992px){
+    header .container{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .img,.text{
+        width: 90%;
+        text-align: center;
+    }
+    header{
+        height: auto;
+    }
+    .links{
+       justify-content: center;
+       padding-bottom: 20px;
+    }
+    section .container{
+        width: 80%;
+    }
+    section .container .details{
+        width: 100%;
+    }
+    section .container .details > div{
+        width:100%;
+    }
+    form .input input{
+        width:98%;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .container .card{
+        width: 80%;
+        margin-top: 25px;
+    }
+    .container .photos{
+        columns: 1;
+    }
+    footer .container .about,
+    footer .container .sub-get{
+       width: 100%;
+    }
+    footer .container .subscribe{
+        width: 100%;
+        margin-block: 50px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .container .card{
+        width: 40%;
+        margin-top: 25px;
+
+    }
+    .container .photos{
+        columns: 2;
+    }
+    
+}
+@media screen and (min-width: 769px) and (max-width: 1200px){
+    footer .container .about{
+       width: 50%;
+       order: 0;
+    }
+    footer .container .sub-get{
+        width: 50%;
+        order: 1;
+    }
+    footer .container .subscribe{
+        width: 100%;
+        margin-block: 50px;
+        order: 2;
+    }   
+}
